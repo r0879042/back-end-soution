@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PHP GET and POST Example</title>
+</head>
+<body>
+
+    <h2>POST Example - Submit Your Details</h2>
+    <form method="post" action="superGlobal.php">
+        Name: <input type="text" name="name" required><br><br>
+        Age: <input type="number" name="age" required><br><br>
+        <input type="submit" name="submit" value="Submit">
+    </form>
+
+
+    <hr>
+
+    <h2>GET Example - Click the Link</h2>
+    <p><a href="superGlobal.php?message=HelloWorld_My_name_is_Sonia">Click here to pass a message using GET</a></p>
+
+</body>
+</html>
